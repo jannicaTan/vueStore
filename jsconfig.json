@@ -1,14 +1,17 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "module": "esnext",
+    "target": "ES6",
+    "module": "commonjs",
     "baseUrl": "./",
-    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
     "paths": {
       "@/*": [
         "src/*"
       ]
     },
+    "exclude": [
+      "node_modules"
+    ],
     "lib": [
       "esnext",
       "dom",
