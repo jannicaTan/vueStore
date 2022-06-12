@@ -18,5 +18,11 @@ export default {
   }
 }
 </script>
-<style>
+<style lang="less">
+@import url('https://at.alicdn.com/t/font_2730880_ylrio3ahhx.css');
+body{
+  font-size: 16px;
+  font-family: SourceHanSansSC;
+  color: #333;
+}
 </style>
